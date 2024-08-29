@@ -21,7 +21,7 @@ import useAuth from '../../hooks/useAuth';
 export default function Layout() {
    useAuth();
    return (
-      <div className="h-screen overflow-hidden">
+      <div className="">
          <Header />
          <div className="flex">
             <Sidebar />
